@@ -311,7 +311,7 @@ def output_skeleton(certificate_info, protocols_allowed, cipher_suites, to_csv):
 ##################################
 #Main
 
-hostname = "dbs.com"
+hostname = "dbs.com" #change this for other website
 
 certificate_info,x509,cert = get_certificate_info(hostname)
 
